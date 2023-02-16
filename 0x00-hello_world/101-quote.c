@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stderr.h>
+#include <unistd.h>
 /**
  * main - display a text with put using printf and puts
  * Return: 1 after code excute
