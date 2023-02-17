@@ -1,23 +1,32 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *main - This function indetify if the number is postive of negative or zero
+ *main - Entry point
  *
- *Return - 0 after a code excute
+ * Return: Always 0 (success/correct)
  */
+
 int main(void)
 {
-	int n;
+int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)	
-		printf("%d is positive\n", n);
-	else if (n < 0) 
-		printf("%d is negative\n", n);
-	else 
-		printf("%d is zero\n", n);
+	/* your code goes there*/
+	if (n > 0)
+	{
+	printf("%i is postive\n", n);
+	}
+	else if (n < 0)
+	{
+	printf("%i is negative\n", n);
+	}
+	else
+	{
+	printf("%i is zero\n", n);
+	}
 	return (0);
+
 }
