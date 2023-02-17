@@ -6,6 +6,7 @@
  * main - This function analys the last number of a digit and print sertain message according to the condtions
  *
  * Return: 0 Every time the code runs(Excute)
+ */
 
 /* betty style doc for function main goes there */
 int main(void)
