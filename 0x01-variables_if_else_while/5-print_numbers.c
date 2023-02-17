@@ -4,7 +4,7 @@
  *
  * Return: 0 Every time the run(Excute)
  */
-int main(void)
+int main (void)
 {
 	int i;
 
